@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #110c0c;
+}
+.back-arrow img{
+  width: 50px;
+  margin: 20px;
+}
+.second-offer .boxes img{
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.second-offer .boxes .one:hover{
+  .empty{
+    display: block;
+    cursor: pointer;
+    transition: ease 4s;
+  }
+}
+.boxes{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.boxes h3{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
